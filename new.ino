@@ -7,7 +7,7 @@ Servo myServo;
 float currentAngle = 0;
 bool direction = true;
 unsigned long lastMoveTime = 0;
-const unsigned long moveInterval = 100;  // adjust for speed
+const unsigned long moveInterval = 50;  // adjust for speed
 
 void setup() {
   myServo.attach(servoPin);
